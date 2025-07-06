@@ -3,8 +3,9 @@ import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
-import logoLight from '../../images/logo-light.svg';
-import logoDark from '../../images/logo-dark.svg';
+// import logoLight from '../../images/logo-light.svg';
+// import logoDark from '../../images/logo-dark.svg';
+ import logo from '../../images/logo.png';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
 
@@ -49,14 +50,14 @@ const AppHeader = () => {
 						<Link to="/">
 							{activeTheme === 'dark' ? (
 								<img
-									src={logoDark}
-									className="w-36"
+									src={logo}
+									className="w-24 p-5 rounded-lg"
 									alt="Dark Logo"
 								/>
 							) : (
 								<img
-									src={logoLight}
-									className="w-36"
+									src={logo}
+									className="w-24 p-5 rounded-lg"
 									alt="Dark Logo"
 								/>
 							)}

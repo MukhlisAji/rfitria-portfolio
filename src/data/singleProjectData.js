@@ -1,162 +1,148 @@
-// Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
+// Import images (reuse or add new if you have)
+import Image1 from '../images/gut-brain.png';
+import Image2 from '../images/gut-brain.png';
+import Image3 from '../images/gut-brain.png';
+
 // Import icons
 import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
+  FiFacebook,
+  FiInstagram,
+  FiLinkedin,
+  FiTwitter,
+  FiYoutube,
 } from 'react-icons/fi';
 
 export const singleProjectData = {
-	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
-	},
-	ProjectImages: [
-		{
-			id: 1,
-			title: 'Kabul Project Management UI',
-			img: Image1,
-		},
-		{
-			id: 2,
-			title: 'Kabul Project Management UI',
-			img: Image2,
-		},
-		{
-			id: 3,
-			title: 'Kabul Project Management UI',
-			img: Image3,
-		},
-	],
-	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
-		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-		Technologies: [
-			{
-				title: 'Tools & Technologies',
-				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
-				],
-			},
-		],
-		ProjectDetailsHeading: 'Challenge',
-		ProjectDetails: [
-			{
-				id: 1,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-			{
-				id: 2,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 3,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
-		],
-	},
-	RelatedProject: {
-		title: 'Related Projects',
-		Projects: [
-			{
-				id: 1,
-				title: 'Mobile UI',
-				img: Image4,
-			},
-			{
-				id: 2,
-				title: 'Web Application',
-				img: Image5,
-			},
-			{
-				id: 3,
-				title: 'UI Design',
-				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
-			},
-		],
-	},
+  ProjectHeader: {
+    title: 'Gut Brain Connection',
+    publishDate: 'Aug 26, 2023',
+    tags: 'Health, Psychology, Nutrition',
+  },
+  ProjectImages: [
+    {
+      id: 1,
+      title: 'Cover Illustration',
+      img: Image1,
+    },
+    {
+      id: 2,
+      title: 'Chapter Layout Example',
+      img: Image2,
+    },
+    {
+      id: 3,
+      title: 'Infographic on Gut Health',
+      img: Image3,
+    },
+  ],
+  ProjectInfo: {
+    ClientHeading: 'About Publisher',
+    CompanyInfo: [
+      {
+        id: 1,
+        title: 'Name',
+        details: 'Mindful Health Publishing',
+      },
+      {
+        id: 2,
+        title: 'Services',
+        details: 'Editorial Design, e-Book Publishing',
+      },
+      {
+        id: 3,
+        title: 'Website',
+        details: 'https://mindfulhealthbooks.com',
+      },
+      {
+        id: 4,
+        title: 'Contact',
+        details: '+1 (555) 987-6543',
+      },
+    ],
+    ObjectivesHeading: 'Project Objective',
+    ObjectivesDetails:
+      'To design and publish an engaging e-Book exploring the scientific and emotional connection between gut health and mental well-being, aimed at general readers and health enthusiasts.',
+    Technologies: [
+      {
+        title: 'Tools & Technologies',
+        techs: [
+          'Adobe InDesign',
+          'Illustrator',
+          'Photoshop',
+          'Canva',
+        ],
+      },
+    ],
+    ProjectDetailsHeading: 'Project Highlights & Challenges',
+    ProjectDetails: [
+      {
+        id: 1,
+        details:
+          'Created custom illustrations to visually explain complex medical concepts in an accessible way.',
+      },
+      {
+        id: 2,
+        details:
+          'Collaborated closely with nutritionists and psychologists to ensure scientific accuracy.',
+      },
+      {
+        id: 3,
+        details:
+          'Balanced detailed information with clear layout design to keep readers engaged.',
+      },
+    ],
+    SocialSharingHeading: 'Share This Project',
+    SocialSharing: [
+      {
+        id: 1,
+        name: 'Twitter',
+        icon: <FiTwitter />,
+        url: 'https://twitter.com/yourhandle',
+      },
+      {
+        id: 2,
+        name: 'Instagram',
+        icon: <FiInstagram />,
+        url: 'https://instagram.com/yourhandle',
+      },
+      {
+        id: 3,
+        name: 'Facebook',
+        icon: <FiFacebook />,
+        url: 'https://facebook.com/yourpage',
+      },
+      {
+        id: 4,
+        name: 'LinkedIn',
+        icon: <FiLinkedin />,
+        url: 'https://linkedin.com/yourprofile',
+      },
+      {
+        id: 5,
+        name: 'Youtube',
+        icon: <FiYoutube />,
+        url: 'https://youtube.com/yourchannel',
+      },
+    ],
+  },
+  RelatedProject: {
+    title: 'Related Projects',
+    Projects: [
+      {
+        id: 1,
+        title: 'Pregnancy',
+        img: '../images/pregnancy.png',
+      },
+      {
+        id: 2,
+        title: 'Cheerful Breakfast',
+        img: '../images/breakfast.png',
+      },
+      {
+        id: 3,
+        title: 'Business Profile',
+        img: '../images/business-profile.png',
+      },
+    ],
+  },
 };

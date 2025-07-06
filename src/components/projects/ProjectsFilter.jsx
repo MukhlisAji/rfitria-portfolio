@@ -1,6 +1,5 @@
 const selectOptions = [
 	'Presentation',
-	'Logo',
 	'e-Book',
 ];
 
